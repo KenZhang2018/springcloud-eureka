@@ -1,2 +1,7 @@
 # springcloud-eureka
-abc
+
+git status .
+git add file
+git rm --cached file
+
+

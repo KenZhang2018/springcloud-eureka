@@ -1,0 +1,18 @@
+#spring:
+#  profiles:
+#    active: eureka_1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+#      自身不注册
+    register-with-eureka: false
+#  这个配置只能在开发环境中关闭,服务启动率太低时会提示红字
+  server:
+    enable-self-preservation: false
+spring:
+  application:
+    name: eureka
+#server:
+#  port: 8761
